@@ -1,0 +1,24 @@
+Chapter 1
+1) LeBlanc’s law: Later equals never.
+2) Broken windows
+3) Boyscout rule
+Chapter 2
+4) The length of a name should correspond to the size of its scope
+5) Prefix intefaces with I and impl with IMPL
+6) Avoid word Processor in class names
+7) When constructors are overloaded, use static factory methods with names that describe the arguments.
+Chapter 3
+The first rule of functions is that they should be small. The second rule of functions is that they should be smaller than that.
+Polymorphism over switch statement
+boolean arguments are bad
+Even obvious dyadic functions like assertEquals(expected, actual) are problematic. How many times have you put the actual where the expected should be?
+In general output arguments should be avoided. If your function must change the state of something, have it change the state of its owning object.
+Separate command from query
+Prefer exceptions to returning error codes
+try { deletePage(page); registry.deleteReference(page.name); configKeys.deleteKey(page.name.makeKey()); } catch (Exception e) { logger.log(e.getMessage()); }
+Duplication may be the root of all evil in software.
+
+
+
+
+
